@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+#define Taille_Grille_X 9
+#define Taille_Grille_Y 9
+#define Mines 10
+
+void randomeMine(int TabGrille[Taille_Grille_X][Taille_Grille_Y]);
+
+void  main(){
+
+    int i;
+    int j;
+    struct case_grille{
+        int ContenuCase;
+        bool Libre;
+                    };
+   struct case_grille TabGrille[Taille_Grille_X+1][Taille_Grille_Y+1];
+
+for(i=0;i<10;i++){
+        for(j=0;j<10;j++){
+
+            TabGrille[i][j].ContenuCase=0;
+            printf("%d",TabGrille[i][j]);
+            TabGrille[i][j].Libre=false;
+
+        }
+        printf("\n");
+        randomeMine(TabGrille);
+    }
+}
+
+ void randomeMine(int TabGrille[Taille_Grille_X][Taille_Grille_Y]){
+     int i=0;
+     int j=0;
+    TabGrille[i][j]= rand()%10;
+        if (TabGrille[i][j]==9){
+            TabGrille[i][j]=-1;
+        printf("%d",TabGrille[i][j]);
+        };
+        
+
+ };
+ void verif_libre(int TabGrille[Taille_Grille_X][Taille_Grille_Y]){
+     if (TabGrille[i][j]==){
+            TabGrille[i][j];
+        
+        };
+ 
+
+

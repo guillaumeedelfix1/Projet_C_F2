@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636121114 source:c:\projet c f2\démineur\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
