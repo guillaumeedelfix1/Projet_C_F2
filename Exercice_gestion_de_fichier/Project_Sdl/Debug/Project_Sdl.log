@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project_Sdl.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  fonction.c
+C:\Projet C F2\VScode\Exercice_gestion_de_fichier\Project_Sdl\fonction.c(126,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+  Project_Sdl.vcxproj -> C:\Projet C F2\VScode\Exercice_gestion_de_fichier\Debug\Project_Exo.exe

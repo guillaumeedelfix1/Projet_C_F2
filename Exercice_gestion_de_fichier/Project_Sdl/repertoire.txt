@@ -1,0 +1,16 @@
+Le nom est : Edel
+Le prenom est : Guillaume
+l'age est : 19
+Le est numero de telephone est : 0789057410
+Le nom est : Fix
+Le prenom est : Rachel
+l'age est : 40
+Le est numero de telephone est : 0606766751
+Le nom est : hourtoulle
+Le prenom est : Tristan
+l'age est : 19
+Le est numero de telephone est : 0389078765
+Le nom est : q
+Le prenom est : q
+l'age est : 12
+Le est numero de telephone est : 123576
